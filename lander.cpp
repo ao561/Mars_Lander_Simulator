@@ -85,7 +85,7 @@ void numerical_dynamics (void)
         cout << altitude << ' ' << descent_rate << ' ' << target_rate << ' ' << throttle << endl;
         
         ofstream fout;
-        fout.open("results.txt", ios::app);
+        fout.open("autopilot_results.txt", ios::app);
         if (fout) { // file opened succesfully
             fout << altitude << ' ' << descent_rate << ' ' << target_rate << endl;
         }
