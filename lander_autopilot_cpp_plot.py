@@ -7,7 +7,7 @@ uploaded = files.upload()
 
 # Load data from files
 
-data = pd.read_csv('results.txt', delim_whitespace=True, names=['altitude', 'descent_rate', 'target_rate'])
+data = pd.read_csv('lander_autopilot_cpp_results.txt', delim_whitespace=True, names=['altitude', 'descent_rate', 'target_rate'])
 
 # Extracting columns into variables
 altitude = data['altitude']
