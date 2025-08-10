@@ -2,7 +2,7 @@
 
 A physics-based simulator for a Mars lander, built in C++. This project simulates the descent of a spacecraft onto the Martian surface, incorporating realistic physics, user controls, and data logging for analysis. The simulator is designed to demonstrate principles of mechanics and control systems in a computational environment.
 
-## Features
+## 🛠️ Features
 
 * **Physics-based Simulation:** Accurately models the forces acting on the lander, including gravity, thrust, and drag.
 
@@ -14,7 +14,7 @@ A physics-based simulator for a Mars lander, built in C++. This project simulate
 
 * **Python Plotting Scripts:** Includes helper scripts in Python to visualise the results of the simulation.
 
-## Project Structure
+## 📁 Project Structure
 
 The project is structured to separate the core simulation logic from the plotting and analysis tools:
 
@@ -26,17 +26,17 @@ The project is structured to separate the core simulation logic from the plottin
 
 * **`lander_autopilot_cpp_plot.py`**: A Python script to visualise the results of an autopilot simulation by processing the data from `lander_autopilot_cpp_results.txt`.
 
-## Technology Stack
+## 💻 Technology Stack
 
 * **Language**: C++
 
 * **Plotting/Analysis**: Python, leveraging libraries like `matplotlib`.
 
-## Getting Started
+## 🏁 Getting Started
 
 To compile and run the simulator, you will need a C++ compiler and the ability to run Python scripts.
 
-### Prerequisites
+### 📋 Prerequisites
 
 * A C++ compiler (e.g., g++).
 
@@ -44,7 +44,7 @@ To compile and run the simulator, you will need a C++ compiler and the ability t
 
 * `matplotlib` and `numpy` Python libraries for plotting.
 
-### Installation
+### ⬇️ Installation
 
 1.  **Clone the repository:**
 
@@ -59,7 +59,7 @@ To compile and run the simulator, you will need a C++ compiler and the ability t
     pip install matplotlib numpy
     ```
 
-### Compilation and Usage
+### ▶️ Compilation and Usage
 
 1.  **Compile the C++ code:**
 
